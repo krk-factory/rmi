@@ -1,6 +1,25 @@
+# NetBeans specific #
+RMIClient.raw/nbproject/private/
+RMIClient.raw/build/
+RMIClient.raw/nbbuild/
+RMIClient.raw/dist/
+RMIClient.raw/nbdist/
+RMIClient.raw/nbactions.xml
+RMIClient.raw/nb-configuration.xml
+
+RMIServer.raw/nbproject/private/
+RMIServer.raw/build/
+RMIServer.raw/nbbuild/
+RMIServer.raw/dist/
+RMIServer.raw/nbdist/
+RMIServer.raw/nbactions.xml
+RMIServer.raw/nb-configuration.xml
+
+# Class files #
 *.class
 
 # Package Files #
 *.jar
 *.war
 *.ear
+
