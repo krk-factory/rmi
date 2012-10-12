@@ -23,7 +23,8 @@ public class Server implements ServerInterface {
     }
 
     public void sendMessage(String message) throws RemoteException {
-        System.out.println("Received message: "+message);
+        System.out.println("DEBUG: Received message: " + message);
+        
         for(ClientInterface client : clients){
             client.sendMessage(message);
         }
