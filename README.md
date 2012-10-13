@@ -1,4 +1,0 @@
-RMI
-===
-
-RMI communication
