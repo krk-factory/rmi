@@ -17,7 +17,7 @@ import javax.naming.InitialContext;
 
 /**
  *
- * @author kalita
+ * @author student
  */
 public class ClientMain {
 
