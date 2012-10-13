@@ -5,7 +5,6 @@
 package client;
 
 import common.ClientInterface;
-import java.rmi.RemoteException;
 
 /**
  *
@@ -14,9 +13,8 @@ import java.rmi.RemoteException;
 public class Client implements ClientInterface
 {
 
-    public void sendMessage(String message)
+    public void showMessage(String message)
     {
-     
         System.out.println(message);
     }
     

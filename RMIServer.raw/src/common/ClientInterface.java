@@ -12,7 +12,7 @@ import java.rmi.RemoteException;
  * @author student
  */
 public interface ClientInterface extends Remote {
-    void sendMessage(String message) throws RemoteException;
+    void showMessage(String message) throws RemoteException;
     
 
 }

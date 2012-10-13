@@ -26,7 +26,7 @@ public class Server implements ServerInterface {
         System.out.println("DEBUG: Received message: " + message);
         
         for(ClientInterface client : clients){
-            client.sendMessage(message);
+            client.showMessage(message);        // wypisanie wszystkim klientom danej wiadomości - zdalne wywołanie showMessage()
         }
     }
         
